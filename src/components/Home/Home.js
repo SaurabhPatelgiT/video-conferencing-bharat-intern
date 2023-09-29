@@ -19,7 +19,7 @@ const Home = () => {
           onChange={(e)=>setValue(e.target.value)}
          />
         <button onClick={handleClick}>Join</button>
-    </div>
+     </div>
   )
 }
 
