@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(2, 65, 182);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.h1 {
+  margin-top: 10px;
+  margin-left: 350px;
+  text-align: center;
+  color: #df8806;;
+  width: 50%;
+  border: 3px solid rgb(236, 213, 2);
+  padding: 5px;
+  background-color: aqua;
+  border-radius: 10px;
+  
+}
+
+.Home{
+  text-align: center;
+  padding-top: 100px;
+ 
+}
+
+.Home input {
+  font-weight: bold;
+  color: rgb(18, 3, 231);
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+.Home button{
+  font-size: 1.2em;
+  background-color: red;
+}
+.Home ::placeholder{
+  font-weight: bold;
+  color: black;
+}
+
